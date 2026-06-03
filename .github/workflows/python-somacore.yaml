@@ -66,4 +66,3 @@ jobs:
         working-directory: ./python-spec
         run: |
           pytest -s -v --junitxml=junit/test-results.xml --cov somacore --cov-report=xml --cov-report=html
-
